@@ -1,8 +1,3 @@
-
-const https = require('https');
-const debug = require('debug')('pm2:version-check')
-const qs    = require('querystring')
-
 var VersionCheck = {}
 
 VersionCheck.runCheck = function(params, cb) {
